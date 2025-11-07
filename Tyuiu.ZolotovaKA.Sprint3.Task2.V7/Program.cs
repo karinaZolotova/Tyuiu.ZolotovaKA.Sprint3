@@ -20,7 +20,6 @@ internal class Program
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
         Console.WriteLine("**************************************************************************");
 
-        Console.WriteLine("Количество символов - " + ds.ReplaceCharOnNum(value, replaceable, replacement));
         Console.ReadKey();
 
     }

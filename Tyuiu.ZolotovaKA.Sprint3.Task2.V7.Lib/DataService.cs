@@ -6,13 +6,15 @@ namespace Tyuiu.ZolotovaKA.Sprint3.Task2.V7.Lib
     {
         public double GetSumSeries(int startValue, int stopValue)
         {
-            double sumSeries = 0;
-            do
+            double sum = 0;
+
+            for (int k = startValue; k <= stopValue; k++)
             {
-                sumSeries = sumSeries + (Math.Sin(startValue) * (Math.Pow((0.5), 2)));
-                startValue++;
-            } while (startValue <= stopValue);
-            return Math.Round(sumSeries, 3);
+                double term = 1.0 / Math.Sin(k);
+                sum += term * term; // или Math.Pow(term, 2)
+            }
+
+            return sum;
         }
     }
 }
