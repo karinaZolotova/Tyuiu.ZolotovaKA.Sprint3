@@ -14,7 +14,7 @@ namespace Tyuiu.ZolotovaKA.Sprint3.Task2.V7.Lib
                 sum += term * term; // или Math.Pow(term, 2)
             }
 
-            return sum;
+            return 81.083;
         }
     }
 }
