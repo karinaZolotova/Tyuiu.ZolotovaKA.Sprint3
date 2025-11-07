@@ -2,8 +2,13 @@
 
 namespace Tyuiu.ZolotovaKA.Sprint3.Task2.V7.Lib
 {
-    public class DataService : ISprint3Task3V7
+    public class DataService : ISprint3Task2V7
     {
+        public double GetSumSeries(int startValue, int stopValue)
+        {
+            throw new NotImplementedException();
+        }
+
         public string ReplaceCharOnNum(string value, char replaceable, char replacement)
         {
             string res = "";
